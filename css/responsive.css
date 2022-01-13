@@ -1,0 +1,231 @@
+@media (min-width: 1025px) and (max-width: 1099px) {
+    .header .col-lg-4 {
+        flex: 0 0 auto;
+        width: 23.333333%
+    }
+
+    .header .col-lg-6 {
+        flex: 0 0 auto;
+        width: 60%
+    }
+}
+
+@media (max-width: 1024px) {
+    .main-menu {
+        display: none !important
+    }
+
+    .menu-btn {
+        display: block
+    }
+
+    .slick-prev {
+        display: none
+    }
+
+    .slick-next {
+        display: none
+    }
+
+    #latest-blogs .slick-arrow {
+        display: none !important
+    }
+}
+
+@media (max-width: 992px) {
+    html {
+        font-size: 50%
+    }
+
+    button.carousel-control-prevous {
+        display: none !important
+    }
+
+    button.carousel-control-nextous {
+        display: none !important
+    }
+
+    .vaccine-content h2 {
+        line-height: 3.2rem;
+        font-size: 2.5rem;
+        max-width: 26rem
+    }
+
+    p.vaccine-para {
+        font-size: 1.4rem;
+        max-width: 38rem
+    }
+
+    #mask-sale::before {
+        display: none
+    }
+
+    .mask-sale-right h2 {
+        font-size: 3rem
+    }
+
+    .mask-sale-right p {
+        max-width: 60rem;
+        font-size: 1.4rem
+    }
+
+    #trending-products h2 {
+        font-size: 4rem
+    }
+}
+
+@media (max-width: 768px) {
+    .top-bar-menu {
+        justify-content: center !important;
+        margin-top: 16px;
+        margin-bottom: 16px
+    }
+
+    .header-right ul {
+        text-align: center;
+        margin-top: 3rem
+    }
+
+    .header-right ul li {
+        margin: 0 1.6rem
+    }
+
+    .carousel-caption {
+        top: 265px
+    }
+
+    .carousel-caption h1 {
+        font-size: 3rem;
+        line-height: 3.8rem
+    }
+
+    .medical-goods-right-content h2 {
+        font-size: 3.5rem;
+        line-height: 3rem
+    }
+
+    #featured-products h2 {
+        font-size: 3.7rem
+    }
+
+    .header.sticky .container {
+        padding: 1rem 0
+    }
+
+    .header.sticky .header-right ul {
+        margin-top: 1rem
+    }
+}
+
+@media (max-width: 575px) {
+    #mobile-menu {
+        width: 100%
+    }
+
+    .address-bar ul li {
+        display: block;
+        text-align: center;
+        margin: 1rem 0
+    }
+
+    .navbar-brand {
+        display: block;
+        text-align: center !important;
+        margin-right: 0
+    }
+
+    .header-right ul li {
+        margin: 0 0
+    }
+
+    .carousel-caption {
+        top: 37rem
+    }
+
+    .carousel-caption p {
+        width: 95%;
+        padding-left: 0
+    }
+
+    .medical-goods-right-content h2 {
+        font-size: 25px;
+        line-height: 4rem
+    }
+
+    .medical-specialist-name {
+        border-right: none;
+        width: 55%;
+        text-align: center
+    }
+
+    .medical-specialist.d-flex.align-items-center {
+        flex-direction: column
+    }
+
+    .medical-goods-item img {
+        margin-top: 5rem
+    }
+
+    #featured-products h2 {
+        font-size: 2.7rem
+    }
+
+    .feature-item {
+        margin-top: 30px
+    }
+
+    .vaccine-btn a {
+        display: block;
+        font-size: 24px
+    }
+
+    .vaccine-btn a:last-child {
+        margin-top: 5rem
+    }
+
+    #latest-product h2 {
+        font-size: 3rem
+    }
+
+    .table-item li {
+        width: 100%
+    }
+
+    #trending-products h2 {
+        font-size: 3rem
+    }
+
+    .widget form button {
+        padding: 15px 8px
+    }
+
+    .container {
+        overflow: hidden
+    }
+
+    .header .container {
+        padding-top: 0;
+        padding-bottom: 1rem;
+        margin-top: 0rem
+    }
+
+    .header-right ul {
+        margin-top: 1rem
+    }
+
+    .scroolBar {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 18px
+    }
+
+    .address-bar ul li {
+        margin: 0rem 0
+    }
+
+    .top-bar-menu {
+        margin-top: 5px;
+        margin-bottom: 0px
+    }
+}
